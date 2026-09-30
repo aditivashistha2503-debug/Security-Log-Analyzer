@@ -1,68 +1,44 @@
 # 🔐 Security Log Analyzer
 
-## 1. Project Overview
+A Python-based cybersecurity project that analyzes failed login attempts and detects suspicious IP addresses.
 
-Security Log Analyzer is a Python-based cybersecurity project that analyzes login logs and detects repeated failed login attempts.
+## 📌 Project Overview
 
-The project identifies suspicious IP addresses, assigns severity levels, stores security alerts in an SQLite database, and displays the results through a Streamlit dashboard.
+Security Log Analyzer is a security monitoring application built using Python, Streamlit, and SQLite.
 
-## 2. Objectives
+It analyzes login logs, counts failed login attempts, identifies suspicious IP addresses, and generates security alerts when multiple failed login attempts are detected.
 
-- Analyze security log files
-- Detect repeated failed login attempts
-- Identify suspicious IP addresses
-- Generate security alerts
-- Assign HIGH and MEDIUM severity levels
-- Store alerts in an SQLite database
-- Display results using a web dashboard
+## 🚀 Features
 
-## 3. Technologies Used
+- Analyzes failed login attempts
+- Identifies suspicious IP addresses
+- Assigns alert severity
+- Generates security alerts
+- Stores alerts in SQLite database
+- Displays results through an interactive Streamlit dashboard
+- Shows failed login summaries and saved alerts
+
+## 🛠️ Technologies Used
 
 - Python
 - Streamlit
 - SQLite
-- VS Code
+- Git & GitHub
 
-## 4. How It Works
+## 📊 Dashboard
 
-1. The program reads the `sample.log` file.
-2. It detects failed login attempts.
-3. Failed attempts are counted for each IP address.
-4. IPs with repeated failures are classified as suspicious.
-5. Security alerts are generated.
-6. Alerts are stored in `security_logs.db`.
-7. The Streamlit application displays the results in a dashboard.
+The dashboard displays:
 
-## 5. Severity Levels
+- Total Failed Attempts
+- Suspicious IPs
+- High Severity Alerts
+- Failed Login Summary
+- Security Alerts
+- Saved Alerts in Database
 
-| Failed Attempts | Severity |
-|---|---|
-| 5 or more | HIGH |
-| 3–4 | MEDIUM |
-| Less than 3 | LOW |
+## ▶️ How to Run
 
-## 6. Project Files
+1. Clone the repository:
 
-- `main.py` – analyzes logs and stores security alerts
-- `app.py` – displays the Streamlit dashboard
-- `sample.log` – sample security log data
-- `security_logs.db` – SQLite database containing alerts
-- `README.md` – project documentation
-
-## 7. Dashboard Features
-
-- Total failed login attempts
-- Suspicious IP detection
-- Severity classification
-- Failed login summary
-- Security alerts
-- Saved database alerts
-- Downloadable summary
-
-## 8. Result
-
-The project successfully detects repeated failed login attempts and displays the detected security information through an interactive dashboard.
-
-## 9. Conclusion
-
-The Security Log Analyzer demonstrates how Python, log analysis, SQLite, and Streamlit can be combined to create a simple cybersecurity monitoring system.
+```bash
+git clone https://github.com/aditivashistha2503-debug/Security-Log-Analyzer.git
