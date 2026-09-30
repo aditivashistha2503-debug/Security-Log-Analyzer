@@ -40,6 +40,5 @@ The dashboard displays:
 
 1. Clone the repository:
 
-```bash
-![Security Log Analyzer Dashboard](dashboard.png)
+```bash![Security Log Analyzer Dashboard](dashboard.png)
 git clone https://github.com/aditivashistha2503-debug/Security-Log-Analyzer.git
