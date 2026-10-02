@@ -26,8 +26,6 @@ It analyzes login logs, counts failed login attempts, identifies suspicious IP a
 - Git & GitHub
 
 ## 📊 Dashboard
-Screenshot 2026-10-02 210727.png
-
 
 The dashboard displays:
 
