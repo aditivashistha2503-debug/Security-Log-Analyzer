@@ -40,5 +40,16 @@ The dashboard displays:
 
 1. Clone the repository:
 
-```bash
 git clone https://github.com/aditivashistha2503-debug/Security-Log-Analyzer.git
+
+2. Open the project folder:
+
+cd Security-Log-Analyzer
+
+3. Install Streamlit:
+
+pip install streamlit
+
+4. Run the dashboard:
+
+python -m streamlit run app.py
